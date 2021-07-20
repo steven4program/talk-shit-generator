@@ -2,7 +2,11 @@
 const express = require('express')
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
-const jobs = require('./job.json')
+
+const content = require('./content.json')
+
+const generateTalkShit = require('./models/talk_shit')
+
 const app = express()
 const port = 3000
 
@@ -14,7 +18,12 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 // setting routes
 app.get('/', (req, res) => {
-  res.render('index', { job: jobs.results })
+  res.render('index', { job: content.jobs })
+})
+
+app.post('/', (req, res) => {
+  const sentence = generateTalkShit(req.body.job)
+  res.render('index', { job: content.jobs, sentence })
 })
 
 app.listen(port, () => {
