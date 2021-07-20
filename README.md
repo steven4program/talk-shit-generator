@@ -4,7 +4,7 @@
 
 ## Screenshot 畫面瀏覽
 
-![image](https://github.com/steven4program/restaurant-list/blob/master/talk-shit-generator.png)
+https://github.com/steven4program/talk-shit-generator/blob/master/talk-shit-generator.png?raw=true
 
 ## Prerequisites - 環境建置與需求
 
