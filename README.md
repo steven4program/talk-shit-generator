@@ -4,11 +4,7 @@
 
 ## Screenshot 畫面瀏覽
 
-<<<<<<< HEAD
-https://github.com/steven4program/talk-shit-generator/blob/master/talk-shit-generator.png?raw=true
-=======
 ![image](https://github.com/steven4program/talk-shit-generator/blob/master/talk-shit-generator.png?raw=true)
->>>>>>> cb5ab3ae24d0b4508bfe79d5faa22e5264012ec7
 
 ## Prerequisites - 環境建置與需求
 
